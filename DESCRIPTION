@@ -1,0 +1,20 @@
+Package: TockyRandomForest
+Version: 0.1.1
+Date: 2025-01-24
+Title: Random Forest Machine Learning Methods for Flow Cytometric Fluorescent Timer Data
+Authors@R: c(person("Masahiro", "Ono", role = c("aut", "cre"),
+                     email = "monotockylab@gmail.com", comment = c(OCRID="0000-0002-9284-7326")))
+Author: Masahiro Ono [aut, cre]
+Maintainer: Masahiro Ono  <monotockylab@gmail.com>
+Description: This package provides Random Forest-based machine learning methods for analysing flow cytometric data from Fluorescent Timer reporters. Specifically, the package provides random forest-based methods for classifying experimental groups and thereby identifying group-specific feature cells. It is optimised to Timer-of-Cell-Kinetics-and-Activity (Tocky), which enables the analysis of temporal dynamics of individual cells in vivo.
+Depends: R (>= 4.2.0), utils, stats, graphics, grDevices, methods
+Imports: dplyr, randomForest, pROC, ROCR, ggplot2, rlang, dbscan, TockyPrep, tidyr, caret, gridExtra, clue
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/MonoTockyLab/TockyRandomForest, https://MonoTockyLab.github.io/TockyRandomForest
+BugReports: https://github.com/MonoTockyLab/TockyRandomForest/issues
+License: Apache-2.0
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+
+

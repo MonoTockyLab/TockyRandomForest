@@ -1,0 +1,17 @@
+url: https://MonoTockyLab.github.io/TockyRandomForest
+
+authors:
+  Masahiro Ono:
+    href: https://monotockylab.github.io/
+
+template:
+  bootstrap: 5
+  params:
+    google_analytics: "G-VJHT0Y5RYF"
+    google_site_verification: Pj4WWF5m9cqCcPqkGG75BI1_593zXImuFRpI8TnAous
+
+navbar:
+  title: TockyRandomForest
+  structure:
+    left: [home, reference, articles, news]
+    right: [github, search]
