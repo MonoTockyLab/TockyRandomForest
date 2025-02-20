@@ -33,6 +33,6 @@ It is adaptable to any number of cell_cluster_id.
 \dontrun{
   data <- data.frame(Angle = runif(100), Intensity = runif(100))
   cell_cluster_id <- dbscan(data, eps = 0.1, minPts = 5)$cluster
-  plotHullsGating(data, cell_cluster_id)
+  violinPlotFeatureCells(data, cell_cluster_id)
 }
 }

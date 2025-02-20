@@ -724,7 +724,7 @@ ClusteringFeatureCells <- function(res_tockyrf, percentile = 0.75, eps = 4, minP
 #' \dontrun{
 #'   data <- data.frame(Angle = runif(100), Intensity = runif(100))
 #'   cell_cluster_id <- dbscan(data, eps = 0.1, minPts = 5)$cluster
-#'   plotHullsGating(data, cell_cluster_id)
+#'   violinPlotFeatureCells(data, cell_cluster_id)
 #' }
 #' @export
 violinPlotFeatureCells <- function(res_tockyrf, p_adjust_method = "BH", ncol = 3, min_cells = 10, scatter_plot = FALSE) {
@@ -896,10 +896,10 @@ violinPlotFeatureCells <- function(res_tockyrf, p_adjust_method = "BH", ncol = 3
 #' \dontrun{
 #'   data <- data.frame(Angle = runif(100), Intensity = runif(100))
 #'   cell_cluster_id <- dbscan(data, eps = 0.1, minPts = 5)$cluster
-#'   plotHullsGating(data, cell_cluster_id)
+#'   plotClusterMFI(data, cell_cluster_id)
 #' }
 #' @export
-violinClusterMFIPlot <- function(x, res_tockyrf, group = NULL, variables = NULL, min_cells = 10, Timer_positive = FALSE){
+plotClusterMFI <- function(x, res_tockyrf, group = NULL, variables = NULL, min_cells = 10, Timer_positive = FALSE){
     
     required_components <- c("model", "accuracy", "train_data", "test_data",
     "cluster_train_data", "cluster_test_data", "test_predictions",

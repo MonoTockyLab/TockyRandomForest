@@ -68,7 +68,7 @@ Normalized and **trigonometric-transformed** Timer fluorescence data offer oppor
 
 ## 3. Data Preprocessing
 
-Install and use [the **TockyPrep** R package](https://github.com/MonoTockyLab/TockyPrep) to preprocess flow cytometric Fluorescent Timer data (@TockyPrep2024).
+Install and use [the **TockyPrep** R package](https://github.com/MonoTockyLab/TockyPrep) to preprocess flow cytometric Fluorescent Timer data (@TockyPrep2024, @TockyPrep2025).
 
 <img src="assets/TockyPrep.png" align="center" width= 40%>
 

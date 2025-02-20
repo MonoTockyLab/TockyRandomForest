@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction to Fluorescent Timer and the Tocky System 
 
-Fluorescent Timer proteins change their emission spectra over time, serving as powerful tools for monitoring transcriptional dynamics in vivo. Our recent efforts have successfully implemented data preprocessing methods in the **TockyPrep** package (@TockyPrep2024). Additionally, to analyze Timer fluorescence dynamics and apply quantitative and statistical analysis methods, we have developed the **TockyLocus** package (@TockyLocus2024). However, analyzing complex Timer profiles, as typically seen in flow cytometric data from Foxp3-Tocky mice, remains challenging.
+Fluorescent Timer proteins change their emission spectra over time, serving as powerful tools for monitoring transcriptional dynamics in vivo. Our recent efforts have successfully implemented data preprocessing methods in the **TockyPrep** package (@TockyPrep2024, @TockyPrep2025). Additionally, to analyze Timer fluorescence dynamics and apply quantitative and statistical analysis methods, we have developed the **TockyLocus** package (@TockyLocus2024). However, analyzing complex Timer profiles, as typically seen in flow cytometric data from Foxp3-Tocky mice, remains challenging.
 
 **Aim**
 
@@ -115,7 +115,7 @@ Lestly, analyse the marker expression of identified clusters.
 
 
 ```{r plotMFIcluster, fig.width=7, fig.height=4,include=TRUE}
-p2 <- violinClusterMFIPlot(test_y, result_rf, min_cells = 10, group = 'WT')
+p2 <- plotClusterMFI(test_y, result_rf, min_cells = 10, group = 'WT')
 
 ```
 

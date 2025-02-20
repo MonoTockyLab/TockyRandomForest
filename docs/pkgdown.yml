@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   Introduction: Introduction.html
   TockyRandomForestAnalysis: TockyRandomForestAnalysis.html
-last_built: 2025-02-20T13:13Z
+last_built: 2025-02-20T15:54Z
 urls:
   reference: https://MonoTockyLab.github.io/TockyRandomForest/reference
   article: https://MonoTockyLab.github.io/TockyRandomForest/articles
